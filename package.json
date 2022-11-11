@@ -2,11 +2,11 @@
   "name": "Personal Portfolio",
   "version": "1.0.0",
   "description": "Responsive portfolio website",
-  "main": "index.js",
+  "main": "index.html",
   "homepage": "",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gh-pages -d dist/index"
+    "deploy": "gh-pages -d dist/index.html"
   },
   "author": "Biniyam Berga",
   "license": "MIT",
